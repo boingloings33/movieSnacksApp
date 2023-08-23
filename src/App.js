@@ -22,7 +22,7 @@ export default function App() {
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState(null);
   // const [watched, setWatched] = useState([]);
-  const [watched, setWatched] = useState([]);
+  const [watched, setWatched] = useState([]); //test
 
   function handleSelectMovie(id) {
     setSelectedId((selectedId) => (id === selectedId ? null : id));
